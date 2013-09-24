@@ -1,0 +1,12 @@
+{
+    "title" : "Graphicslab manuals",
+    "manual" : {
+            "LGForNGO" : {
+                "title" : {
+                    "fr" : "Graphisme Libre pour ONGs"
+                },
+                "git_user" : "aoloe",
+                "git_repository" : "libregraphics-manual-libregraphics_for_ONGs"
+            }
+        }
+}
