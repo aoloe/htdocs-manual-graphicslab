@@ -1,5 +1,9 @@
 {
     "title" : "Graphicslab manuals",
+    "language" : [
+        "en",
+        "fr"
+    ],
     "manual" : {
             "LGForNGO" : {
                 "title" : {
