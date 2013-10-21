@@ -1,16 +1,30 @@
 {
     "title" : "Graphicslab manuals",
-    "language" : [
-        "en",
-        "fr"
-    ],
-    "manual" : {
-            "LGForNGO" : {
-                "title" : {
-                    "fr" : "Graphisme Libre pour ONGs"
-                },
-                "git_user" : "aoloe",
-                "git_repository" : "libregraphics-manual-libregraphics_for_ONGs"
-            }
+    "language" : {
+        "en" : "English",
+        "fr" : "Français",
+        "it" : "Italiano"
+    },
+    "manual" : [
+        {
+            "id" : "LGForNGO",
+            "title" : {
+                "fr" : "Graphisme Libre pour l'associatif"
+            },
+            "local" : "/home/ale/docs/src/libregraphics-manual-libregraphics_for_ONGs/",
+            "git_user" : "aoloe",
+            "git_repository" : "libregraphics-manual-libregraphics_for_ONGs",
+            "git_content_directory" : "content"
+        },
+        {
+            "id" : "Scribus",
+            "title" : {
+                "it" : "Impaginare con Scribus"
+            },
+            "local_path" : "/home/ale/docs/src/libregraphics-manual-scribus/",
+            "git_user" : "aoloe",
+            "git_repository" : "libregraphics-manual-scribus",
+            "git_content_directory" : "content"
         }
+    ]
 }
